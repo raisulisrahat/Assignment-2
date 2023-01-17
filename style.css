@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* --------header------- */
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.banner{
+    padding: 50px 250px;
+    display: none;
+}
+
+.bnr-content{
+    padding: auto;
+    text-align: center;
+}
+
+.bnr-title{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bnr-text{
+    color: rgba(114, 114, 114, 1);
+    font-size: 20px;
+    margin: 0 250px;
+    margin-bottom: 10px;
+}
+.btn-main{
+    background-color: rgb(255, 123, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.bnr-content img{
+    width:100%;
+}
+
+/* ----- main ------ */
+ main{
+    display: none;
+ }
+/* Contener */
+.container{
+    display: flex;
+    align-items: center;
+    margin: 50px 250px;
+    gap: 100px;
+}
+.content-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:15px;
+    width: 50%;
+}
+.cnt-title{
+    font-size: 50px;
+    padding-right: 200px;
+    margin-bottom: 20px;
+}
+#title-col-1{
+    font-weight: 300;
+    color: rgba(114, 114, 114, 1);
+}
+#title-col-2{
+
+    color: rgb(7, 7, 7);
+}
+#title-col-3{
+
+    color: rgb(255, 145, 0);
+}
+.cnt-text{
+    color: rgba(114, 114, 114, 1);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+    /* features */
+.ftr{
+    flex-direction: column;
+    width: auto;
+}
+.ftr-ctn-title{
+    border-left: 10px solid #ff900e;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.ftr-ctn-text{
+    color: rgb(151, 151, 151);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#btn-pos{
+    position: absolute;
+    bottom: -2090px;
+    left: 835px;
+}
+.btn-box{
+    background-color: rgba(255, 144, 14, 1);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#btn-bold{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.ftr-item{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.ftr-item-title{
+    color: rgb(49, 49, 49);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ftr-item-text{
+    color: rgb(151, 151, 151);
+}
+/* Some Facts */
+.sf-container{
+    margin-left: 250px;
+}
+
+.sf-ctn-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 300px;
+}
+
+.info-item{
+    text-align: center;
+    border: 2px solid rgb(255, 151, 67);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info-iteam-num{
+    color: black;
+    font-weight: 700;
+    font-size: 40PX;
+}
+.spnsr-content{
+    margin: 60px 250px;
+    text-align: center;
+}
+.spnsr-title{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.spnsr-text{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.spnsr-logo{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+    margin: 50px;
+}
+/* --- footer ---- */
+footer{
+    display: none;
+}
+#footer-ctn{
+    margin: 100px 450px;
+    padding: 50px;
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 8px;
+}
+.ft-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* --- Resposive --- */
+
+@media screen and (max-width: 576px) and (max-width: 992px){
+    .logo{
+        font-size: 30px;
+    }
+    nav{
+        padding: 20px;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    nav ul{
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        left: -50px;
+    }
+    nav li{    
+    padding: 5px 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(12, 12, 12, 0.06);
+    }
+
+}
