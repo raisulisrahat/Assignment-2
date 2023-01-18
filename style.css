@@ -155,7 +155,6 @@ nav li{
 }
 /* Some Facts */
 .sf-container{
-    display: none;
     margin-left: 250px;
 }
 
@@ -173,7 +172,6 @@ nav li{
 }
 
 .info-item{
-    display: none;
     text-align: center;
     border: 2px solid rgb(255, 151, 67);
     padding: 20px;
@@ -186,7 +184,6 @@ nav li{
     font-size: 40PX;
 }
 .spnsr-content{
-    display: none;
     margin: 60px 250px;
     text-align: center;
 }
@@ -207,9 +204,6 @@ nav li{
     margin: 50px;
 }
 /* --- footer ---- */
-footer{
-    display: none;
-}
 #footer-ctn{
     margin: 100px 450px;
     padding: 50px;
@@ -278,5 +272,66 @@ footer{
     }
     .ftr-ctn-title{
         font-size: 30px;
+    }
+    .ftr-ctn-text{
+        font-size: 15px;
+    }
+    .ftr-item-title{
+        font-size: 30px;
+    }
+    .ftr-item-text{
+        font-size: 15px;
+    }
+    .ftr-content img{
+        width: 100%;
+    }
+    #btn-pos{
+        padding: 15px;
+        bottom: -2350px;
+        left: 5px;
+    }
+    .btn-box{
+        padding: 10px;
+    }
+    #btn-bold{
+        font-size: 30px;
+    }
+    .sf-container{
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    .sf-ctn-title{
+        font-size: 30px;
+    }
+    .sf-ctn-text{
+        font-size: 15px;
+    }
+    .info-container{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:15px;
+    }
+    .info-item{
+        text-align: center;
+        margin: 0 90px;
+    }
+    .spnsr-content{
+        margin: 15px;
+    }
+    .spnsr-logo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:15px;
+        margin: 0 100px;
+    }
+    .spnsr-title{
+        font-size: 30px;
+    }
+    .spnsr-text{
+        font-size: 15px;
+    }
+    #footer-ctn{
+        margin: 20px;
     }
 }
